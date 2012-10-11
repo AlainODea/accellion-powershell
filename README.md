@@ -14,6 +14,8 @@ USAGE
 1. Launch Powershell
 2. Copy/Paste contents of AccellionAPIs.ps1 into the shell
 3. Edit and copy/paste the following to get a file listing
+
+```powershell
 function Run-Example
 {
     $hostname="accellion.example.com"
@@ -26,3 +28,4 @@ function Run-Example
     Get-AccellionFiles $hostname $applicationId $loginSecret $uid $domain
 }
 Run-Example
+```
